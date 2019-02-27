@@ -1,5 +1,6 @@
 import numpy as np
-from blackJackGame import blackJackGame
+from blackjack_game import BlackJackGame
+
 
 def printHand(hand):
     for card in hand:
@@ -7,7 +8,7 @@ def printHand(hand):
 
 
 if __name__ == '__main__':
-    env = blackJackGame()
+    env = BlackJackGame()
 
     while True:
         observation, reward, done = env.newRound()

@@ -6,13 +6,12 @@ still remain to one.
 
 * the dealer deck can be arbitrary, the card will not be replaced
 
-
 '''
 
 import numpy as np
 
-class blackJackGame(object):
 
+class BlackJackGame(object):
     def __init__(self):
         self.n_actions = 4  # 0: stand, 1:hit, 2:double down, 3:split
         self.bet = 1
