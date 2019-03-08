@@ -2,7 +2,6 @@
 plot the interactive strategy table
 """
 
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.transforms import Bbox, BboxTransform
