@@ -38,3 +38,5 @@ Qlearning_black_jack# python play_myself.py
 This command will that you play black jack and test the gaming environment by yourself
 ![play_myself_demo](https://user-images.githubusercontent.com/27904418/54009916-9588af80-4121-11e9-8766-fc26ce7d0b37.png)
 
+
+hello
