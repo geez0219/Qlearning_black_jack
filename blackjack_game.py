@@ -12,11 +12,14 @@ import numpy as np
 
 
 class BlackJackGame(object):
-    def __init__(self):
+    def __init__(self, startDeck=None):
         self.n_actions = 4  # 0: stand, 1:hit, 2:double down, 3:split
         self.bet = 1
-        self.deckNumber = 8
-        self.startDeck = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10] * self.deckNumber
+        if startDeck is None:
+            self.deckNumber = 8
+            self.startDeck = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10] * self.deckNumber
+        else:
+            self.startDeck = startDeck
         self.shuffleTime = 0.5
         self.cardPool = self.startDeck.copy()
         np.random.shuffle(self.cardPool)
