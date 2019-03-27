@@ -1,6 +1,6 @@
 # Qlearning_black_jack
 ## Background
-Black jack is the most popular casino game all over the world because of its highest winning expectation (almost 50%) if players play it correctly. By saying correctly, it means you follow the black jack strategy table that already built by consicely calculation. But those strategy are made under the assumption that the deck is totally balanced (the decks is composed by mutiple poker deck). If casinos use imballanced deck, the so-called "best strategy" may not be the best strategy anymore.  
+Black jack is the most popular casino game all over the world because of its highest winning expectation (almost 50%) if players play it "correctly". Refer to playing "correctly", it means you follow the black jack strategy table that already built by consicely calculation. But those strategy are made under the assumption that the deck is totally balanced (the decks is composed by mutiple poker deck). If casinos use imballanced deck, the so-called "best strategy" may not be the best strategy anymore.  
 
 ## What this package can do
 1. This repository allows users to train a black jack strategy (black jack AI) by using Q-learning algorithm. 
